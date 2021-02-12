@@ -14,5 +14,9 @@ UnrealDumper ported to QemuVM with memflow.
  
  #### Usage
  ```
+ mkdir build
+ cd build
+ cmake ..
+ make
 ./unrealdumper <pid>
 ```
